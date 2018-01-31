@@ -1,0 +1,31 @@
+$default-color: #2f3542;
+
+body{
+	background: $default-color;
+}
+#home{
+	margin-top: 60px;
+}
+
+.btn-divisor{
+	margin-top: -23px;
+} 
+.rounded{
+	border-radius: 5px;
+}
+
+.navbar{
+	border-bottom: 3px $default-color solid;
+}
+.img-fluid{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.feature-image{
+	display: inline-block;
+	width: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
